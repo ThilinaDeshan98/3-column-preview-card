@@ -1,0 +1,158 @@
+@import "./globals";
+@import "./variables";
+
+body {
+    background-color: $heading-color;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    width: 85%;
+    height: 43rem;
+    
+}
+
+section {
+    width: 100%;
+    height: 25em;
+    padding: 2rem;
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        color: $paragraph-color;
+    }
+    
+}
+
+.btn {
+    padding: .8rem;
+    width: 8rem;
+    border-radius: 100px;
+    margin-top: 3rem;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: $bright-orange;
+
+    h1 {
+        margin-top: 2rem;
+    }
+
+    p {
+        margin-top: 2rem;
+    }
+
+    .btn {
+        color: $bright-orange;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    
+}
+
+.cyan {
+    background-color: $dark-cyan;
+
+    h1 {
+        margin-top: 2rem;
+    }
+
+    p {
+        margin-top: 2rem;
+    }
+
+    .btn {
+        color: $dark-cyan;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.very-dark-cyan {
+    background-color: $very-dark-cyan;
+
+    h1 {
+        margin-top: 2rem;
+    }
+
+    p {
+        margin-top: 2rem;
+        width: 94%;
+    }
+
+    .btn {
+        color: $very-dark-cyan;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+@media screen and (min-width: 50rem) {
+    main {
+        display: flex;
+        width: 52rem;
+        height: 30rem;
+        margin: 0;
+        border-radius: 10px;
+        overflow: hidden;
+
+    }
+
+    section {
+        width: 100%;
+        height: 100%;
+        padding: 2.5rem;
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: .8rem;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 4.5rem;
+        }
+    }
+
+    .yellow {
+        p {
+            width: 83%;
+        }
+    }
+
+    .cyan {
+        p {
+            width: 90%;
+        }
+    }
+
+    .very-dark-cyan {
+        p {
+            width: 90%;
+        }
+    }
+
+}

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 85%;
+  height: 43rem;
+}
+
+section {
+  width: 100%;
+  height: 25em;
+  padding: 2rem;
+}
+section h1 {
+  font-size: 2rem;
+}
+section p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+  padding: 0.8rem;
+  width: 8rem;
+  border-radius: 100px;
+  margin-top: 3rem;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: hsl(31, 77%, 52%);
+}
+.yellow h1 {
+  margin-top: 2rem;
+}
+.yellow p {
+  margin-top: 2rem;
+}
+.yellow .btn {
+  color: hsl(31, 77%, 52%);
+}
+.yellow .btn:hover {
+  color: white;
+}
+
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+.cyan h1 {
+  margin-top: 2rem;
+}
+.cyan p {
+  margin-top: 2rem;
+}
+.cyan .btn {
+  color: hsl(184, 100%, 22%);
+}
+.cyan .btn:hover {
+  color: white;
+}
+
+.very-dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+}
+.very-dark-cyan h1 {
+  margin-top: 2rem;
+}
+.very-dark-cyan p {
+  margin-top: 2rem;
+  width: 94%;
+}
+.very-dark-cyan .btn {
+  color: hsl(179, 100%, 13%);
+}
+.very-dark-cyan .btn:hover {
+  color: white;
+}
+
+@media screen and (min-width: 50rem) {
+  main {
+    display: flex;
+    width: 52rem;
+    height: 30rem;
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  section {
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem;
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+  section p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+  }
+  section .btn {
+    margin-top: 4.5rem;
+  }
+  .yellow p {
+    width: 83%;
+  }
+  .cyan p {
+    width: 90%;
+  }
+  .very-dark-cyan p {
+    width: 90%;
+  }
+}/*# sourceMappingURL=main.css.map */
